@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.0.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_0_0.dtd">
+
+<service-builder package-path="com.customer">
+	<namespace>Customer</namespace>
+	<!--<entity data-source="sampleDataSource" local-service="true" name="Foo" remote-service="false" session-factory="sampleSessionFactory" table="foo" tx-manager="sampleTransactionManager uuid="true"">-->
+    <entity name="Customer" remote-service="false" local-service="true" table="customer">
+        <column name="cid" type="long" primary="true" id-type="increment"></column>
+        <column name="cusername" type="String"></column>
+        <column name="cpass" type="String"></column>
+        <column name="cname" type="String"></column>
+        <column name="cemail" type="String"></column>
+        <column name="cmobile" type="String"></column>
+    </entity>
+</service-builder>

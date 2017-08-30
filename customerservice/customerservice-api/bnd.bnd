@@ -1,0 +1,7 @@
+Bundle-SymbolicName: customerservice-api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.customer.exception,\
+	com.customer.model,\
+	com.customer.service,\
+	com.customer.service.persistence

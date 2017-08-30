@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.customer.model.Customer">
+		<field name="cid" type="long" />
+		<field name="cusername" type="String" />
+		<field name="cpass" type="String" />
+		<field name="cname" type="String" />
+		<field name="cemail" type="String" />
+		<field name="cmobile" type="String" />
+	</model>
+</model-hints>
