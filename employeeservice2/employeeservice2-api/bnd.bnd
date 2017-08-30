@@ -1,0 +1,7 @@
+Bundle-SymbolicName: employeeservice2-api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.employee.exception,\
+	com.employee.model,\
+	com.employee.service,\
+	com.employee.service.persistence

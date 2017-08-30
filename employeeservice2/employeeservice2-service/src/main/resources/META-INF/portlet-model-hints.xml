@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.employee.model.Employee">
+		<field name="eid" type="long" />
+		<field name="ename" type="String" />
+		<field name="emailid" type="String" />
+		<field name="mobile" type="String" />
+	</model>
+</model-hints>

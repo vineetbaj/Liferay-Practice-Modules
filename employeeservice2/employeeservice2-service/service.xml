@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.0.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_0_0.dtd">
+
+<service-builder package-path="com.employee">
+	<namespace>Employee</namespace>
+	<!--<entity data-source="sampleDataSource" local-service="true" name="Foo" remote-service="false" session-factory="sampleSessionFactory" table="foo" tx-manager="sampleTransactionManager uuid="true"">-->
+    <entity name="Employee" remote-service="false" local-service="true" table="employee">
+        <column name="eid" type="long" primary="true" id-type="increment"></column>
+        <column name="ename" type="String"></column>
+        <column name="emailid" type="String"></column>
+        <column name="mobile" type="String"></column>
+    </entity>
+</service-builder>
